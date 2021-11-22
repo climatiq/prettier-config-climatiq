@@ -13,7 +13,11 @@ npx install-peerdeps --dev @climatiq/prettier-config
 Now create a Prettier configuration file, `.prettierrc` for your project that extends Climatiq's rules:
 
 ```prettier
-"@climatiq/prettier-config""
+"@climatiq/prettier-config"
 ```
 
 Now run `npx prettier path/to/files` to test if everything works as expected.
+
+## Editor/IDE integration
+
+Running Prettier from your IDE or Editor is very useful as Prettier will fix formatting on-the-fly. [Read this guide for more instructions](https://prettier.io/docs/en/editors.html) 
