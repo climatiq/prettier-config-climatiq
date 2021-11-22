@@ -1,0 +1,27 @@
+{
+  "name": "@climatiq/prettier-config",
+  "version": "0.0.1",
+  "description": "Prettier configuration for Climatiq projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/climatiq/prettier-config-climatiq.git"
+  },
+  "keywords": [
+    "prettier-config",
+    "prettier",
+    "javascript"
+  ],
+  "author": "Climatiq",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/climatiq/prettier-config-climatiq/issues"
+  },
+  "homepage": "https://github.com/climatiq/prettier-config-climatiq#readme",
+  "peerDependencies": {
+    "prettier": ">=2.4.1"
+  },
+  "dependencies": {
+    "prettier": "^2.4.1"
+  }
+}
