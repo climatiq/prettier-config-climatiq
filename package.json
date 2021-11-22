@@ -1,6 +1,6 @@
 {
   "name": "@climatiq/prettier-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Prettier configuration for Climatiq projects",
   "main": "index.js",
   "repository": {
