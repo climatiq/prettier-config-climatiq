@@ -9,7 +9,7 @@
   "scripts": {
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "prepare": "husky"
+    "prepare": "git config core.hooksPath .githooks || true"
   },
   "repository": {
     "type": "git",
@@ -31,8 +31,5 @@
   },
   "dependencies": {
     "prettier": "^3.8.3"
-  },
-  "devDependencies": {
-    "husky": "^9.1.7"
   }
 }
