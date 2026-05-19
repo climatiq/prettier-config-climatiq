@@ -1,0 +1,6 @@
+if ! yarn format:check; then
+  yarn format
+  echo ""
+  echo "Prettier reformatted files. Review the changes, re-stage them, and commit again."
+  exit 1
+fi
