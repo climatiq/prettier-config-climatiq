@@ -3,6 +3,14 @@
   "version": "1.1.0",
   "description": "Prettier configuration for Climatiq projects",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "git config core.hooksPath .githooks || true"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/climatiq/prettier-config-climatiq.git"

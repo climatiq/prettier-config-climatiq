@@ -20,4 +20,4 @@ Now run `npx prettier path/to/files` to test if everything works as expected.
 
 ## Editor/IDE integration
 
-Running Prettier from your IDE or Editor is very useful as Prettier will fix formatting on-the-fly. [Read this guide for more instructions](https://prettier.io/docs/en/editors.html) 
+Running Prettier from your IDE or Editor is very useful as Prettier will fix formatting on-the-fly. [Read this guide for more instructions](https://prettier.io/docs/en/editors.html)
