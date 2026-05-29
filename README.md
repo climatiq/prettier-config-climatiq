@@ -21,3 +21,11 @@ Now run `npx prettier path/to/files` to test if everything works as expected.
 ## Editor/IDE integration
 
 Running Prettier from your IDE or Editor is very useful as Prettier will fix formatting on-the-fly. [Read this guide for more instructions](https://prettier.io/docs/en/editors.html)
+
+## Release process
+
+To publish a new release, just create a new Release on the GitHub Repo Releases page with the new version.
+
+The GitHub Actions workflow `release.yaml` will tag the new version and publish it to npm.
+
+Therefore, the version in the package.json does not necessarily reflect the current version of the package.

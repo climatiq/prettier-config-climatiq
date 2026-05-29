@@ -1,6 +1,6 @@
 #!/bin/sh
-if ! yarn format:check; then
-  yarn format
+if ! npm run format:check; then
+  npm run format
   echo ""
   echo "Prettier reformatted files. Review the changes, re-stage them, and commit again."
   exit 1
